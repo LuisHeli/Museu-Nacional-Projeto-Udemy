@@ -10,6 +10,9 @@
     padding: 0;
     font-family: var(--font-2);
 }
+body {
+    overflow-x: hidden;
+}
 header{
     height: 200px;
     background: #2D2821;
@@ -50,33 +53,102 @@ nav div a:hover{
     color: #6e4c1b;
     transition: 200ms;
 }
+    /* MAIN */
+
+.div-img-museu {
+    position: relative;
+    left: 95px;
+    bottom: 80px;
+    display: inline-block
+}
+.div-img-museu img {
+    width: 100%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.479);
+}
+.div-img-depoimento {
+    position: relative;
+    left: 145px;
+    bottom: 80px;
+    display: inline-block;
+}
+.div-img-depoimento img {
+    width: 100%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.479);
+}
 
 @media (max-width: 1246px) {
+    /* HEADER */
     nav{
         margin-right: 80px;
     }
     nav div a {
         font-size: 0.85em;
     }
-
+    /* MAIN Primeiras duas imgs */
+    .div-img-museu {
+        left: 55px;
+    }
+    .div-img-museu img {
+        width: 90%;
+    }
+    .div-img-depoimento {
+        left: 0px;
+    }
+    .div-img-depoimento img {
+        width: 90%;
+    }
 }
 @media (max-width: 1073px) {
+    /* HEADER */
     header>div h1 {
         font-size: 1.8em;
     }
     nav div a {
         font-size: 0.7em;
     }
+    /* MAIN Primeiras duas imgs */
+    .div-img-museu {
+        left: 55px;
+    }
+    .div-img-museu img {
+        width: 500px;
+        height: 288px;
+    }
+    .div-img-depoimento {
+        left: 80px;
+        width: 350px;
+    }
+    .div-img-depoimento img {
+
+    }
 }
 @media (max-width: 953px) {
+    /* HEADER */
     header>div h1 {
         font-size: 1.6em;
     }
     nav div a {
         font-size: 0.55em;
     }
+    /* MAIN Primeiras duas imgs */
+    .div-img-museu {
+        left: 55px;
+    }
+    .div-img-museu img {
+        width: 440px;
+        height: 288px;
+    }
+    .div-img-depoimento {
+        left: 80px;
+        width: 300px;
+    }
+    .div-img-depoimento img {
+        width: 280px;
+        height: 288px;
+    }
 }
 @media (max-width: 854px) {
+    /* HEADER */
     header>div {
         left: 60px;
     }
@@ -89,8 +161,26 @@ nav div a:hover{
     nav div a {
         font-size: 0.45em;
     }
+        /* MAIN Primeiras duas imgs */
+        .div-img-museu {
+            left: 75px;
+            bottom: 80px;
+        }
+        .div-img-museu img {
+            width: 400px;
+            height: 208px;
+        }
+        .div-img-depoimento {
+            left: 100px;
+            width: 190px;
+        }
+        .div-img-depoimento img {
+            width: 190px;
+            height: 208px;
+        }
 }
 @media (max-width: 800px) {
+    /* HEADER */
     header{
         height: 200px;
         background: #2D2821;
@@ -116,16 +206,62 @@ nav div a:hover{
     nav div a {
         font-size: 0.75em;
     }
+        /* MAIN Primeiras duas imgs */
+        .div-img-museu {
+            bottom: 20px;
+            display: block;
+            left: 0px;
+            margin: auto;
+            width: 500px;
+            height: 258px;
+        }
+        .div-img-museu img {
+            width: 500px;
+            height: 258px;
+        }
+        .div-img-depoimento {
+           left: 100px;
+           width: 190px;
+           bottom: -10px;
+        }
+        .div-img-depoimento img {
+            width: 190px;
+            height: 208px;
+        }
 }
 @media (max-width: 604px) {
+    /* HEADER */
     header>div h1 {
         font-size: 1.5em;
     }
     nav div a {
         font-size: 0.6em;
     }
+    /* MAIN Primeiras duas imgs */
+    .div-img-museu {
+        bottom: 20px;
+        display: block;
+        left: 0px;
+        margin: auto;
+        width: 450px;
+        height: 238px;
+    }
+    .div-img-museu img {
+        width: 450px;
+        height: 238px;
+    }
+    .div-img-depoimento {
+       left: 100px;
+       width: 190px;
+       bottom: -10px;
+    }
+    .div-img-depoimento img {
+        width: 190px;
+        height: 208px;
+    }
 }
 @media (max-width: 497px) {
+    /* HEADER */
     header{
         height: 150px;
         background: #2D2821;
@@ -139,20 +275,67 @@ nav div a:hover{
     nav div a {
         font-size: 0.45em;
     }
+     /* MAIN Primeiras duas imgs */
+     .div-img-museu {
+        bottom: 20px;
+        display: block;
+        left: 0px;
+        margin: auto;
+        width: 350px;
+        height: 188px;
+    }
+    .div-img-museu img {
+        width: 350px;
+        height: 188px;
+    }
+    .div-img-depoimento {
+       left: 100px;
+       width: 190px;
+       bottom: -10px;
+    }
+    .div-img-depoimento img {
+        width: 190px;
+        height: 208px;
+    }
 }
 @media (max-width: 388px) {
+    /* HEADER */
     header>div h1 {
         font-size: 1.1em;
     }
     nav div a {
         font-size: 0.3em;
     }
+    /* MAIN Primeiras duas imgs */
+    .div-img-museu {
+        bottom: 20px;
+        display: block;
+        left: 0px;
+        margin: auto;
+        width: 300px;
+        height: 158px;
+    }
+    .div-img-museu img {
+        width: 300px;
+        height: 158px;
+    }
+    .div-img-depoimento {
+       left: 100px;
+       width: 190px;
+       bottom: -10px;
+    }
+    .div-img-depoimento img {
+        width: 190px;
+        height: 208px;
+    }
 }
 @media (max-width: 344px) {
+    /* HEADER */
     header>div h1 {
         font-size: 1em;
     }
     nav div a {
         font-size: 5.4px;
     }
+    
 }
