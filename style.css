@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-1: 'Poppins', sans-serif;
+    --font-2: 'Open Sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-2);
+}
+header{
+    height: 200px;
+    background: #2D2821;
+}
+header>div {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    display: inline-block;
+}
+header>div h1{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+}
+header>div h1 span {
+    color: #9A6A27;
+}
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 130px;
+    position: relative;
+    bottom: 8px;
+}
+nav div{
+    padding: 10px;
+}
+nav div a {
+    color: #9A6A27;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+}
+nav div a:hover{
+    color: #6e4c1b;
+    transition: 200ms;
+}
+
+@media (max-width: 1246px) {
+    nav{
+        margin-right: 80px;
+    }
+    nav div a {
+        font-size: 0.85em;
+    }
+
+}
+@media (max-width: 1073px) {
+    header>div h1 {
+        font-size: 1.8em;
+    }
+    nav div a {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 953px) {
+    header>div h1 {
+        font-size: 1.6em;
+    }
+    nav div a {
+        font-size: 0.55em;
+    }
+}
+@media (max-width: 854px) {
+    header>div {
+        left: 60px;
+    }
+    nav{
+        margin-right: 40px;
+    }
+    header>div h1 {
+        font-size: 1.2em;
+    }
+    nav div a {
+        font-size: 0.45em;
+    }
+}
+@media (max-width: 800px) {
+    header{
+        height: 200px;
+        background: #2D2821;
+    }
+    header>div {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 40px;
+        left: 0px;
+    }
+    header>div h1 {
+        font-size: 1.7em;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        top: 65px;
+        margin-right: 0px;
+    }
+    nav div a {
+        font-size: 0.75em;
+    }
+}
+@media (max-width: 604px) {
+    header>div h1 {
+        font-size: 1.5em;
+    }
+    nav div a {
+        font-size: 0.6em;
+    }
+}
+@media (max-width: 497px) {
+    header{
+        height: 150px;
+        background: #2D2821;
+    }
+    header>div h1 {
+        font-size: 1.4em;
+    }
+    nav {
+        top: 50px;
+    }
+    nav div a {
+        font-size: 0.45em;
+    }
+}
+@media (max-width: 388px) {
+    header>div h1 {
+        font-size: 1.1em;
+    }
+    nav div a {
+        font-size: 0.3em;
+    }
+}
+@media (max-width: 344px) {
+    header>div h1 {
+        font-size: 1em;
+    }
+    nav div a {
+        font-size: 5.4px;
+    }
+}
