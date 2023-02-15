@@ -76,6 +76,25 @@ nav div a:hover{
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.479);
 }
 
+/* Formulario Visita */
+
+section {
+    width: 348px;
+    float: right;
+    background-color: #EDE5DF;
+    position: relative;
+    top: 240px;
+    right: 285px;
+}
+section h3{
+    font-size: 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+form {
+    
+}
+
 @media (max-width: 1246px) {
     /* HEADER */
     nav{
