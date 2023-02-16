@@ -32,7 +32,7 @@ header>div h1 span {
     color: #9A6A27;
 }
 /* NAV */
-nav {
+.nav1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -40,16 +40,16 @@ nav {
     position: relative;
     bottom: 8px;
 }
-nav div{
+.nav1 div{
     padding: 10px;
 }
-nav div a {
+.nav1 div a {
     color: #9A6A27;
     font-weight: 500;
     font-size: 1em;
     text-decoration: none;
 }
-nav div a:hover{
+.nav1 div a:hover{
     color: #6e4c1b;
     transition: 200ms;
 }
@@ -76,16 +76,42 @@ nav div a:hover{
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.479);
 }
 
+/* ASIDE */
+
+aside {
+    position: relative;
+    bottom: 70px;
+    left: 80px;
+    display: flex;
+}
+aside h2 {
+    color: green;
+    font-size: 1.2em;
+}
+video {
+    padding-top: 15px;
+    width: 400px;
+}
+.vid2 {
+    width: 300px;
+}
+aside div {
+    padding-left: 20px;
+    position: relative;
+
+}
+.div2 {
+
+}
 /* Formulario Visita */
 
 section {
     width: 298px;
-    float: right;
+    height: 150px;
+    left: 35px;
     background: #cdc8b1;
     position: relative;
-    top: 240px;
     padding: 10px 27px 27px;
-    right: 285px;
 }
 section h3{
     font-size: 1em;
@@ -94,7 +120,7 @@ section h3{
     padding-bottom: 12px;
 }
 form {
-    
+
 }
 .botao {
     background: #9D9175;
@@ -107,6 +133,26 @@ form {
 }
 .div-botao {
     padding-top: 10px;
+}
+
+/* footer */
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.nav2 div {
+
+    padding: 10px;
+    
+}
+.nav2 a {
+    text-decoration: none;
+    color: #9A6A27;
+    font-weight: 500;
+
+    font-size: 0.9em;
 }
 @media (max-width: 1246px) {
     /* HEADER */
